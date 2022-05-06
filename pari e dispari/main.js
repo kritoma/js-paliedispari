@@ -15,7 +15,6 @@ function isOdd(n) {
 
 // main  
 // scelta pari o dispari
-// let userChoice = prompt("pari o dispari");
 let userChoice;
 do {
     userChoice = prompt("pari o dispari");
@@ -33,9 +32,9 @@ console.log(numCpu);
 const sum = numCpu + numUser;
 
 if (isOdd(sum)) {
-    console.log("il risultato è dispari : " + sum);
+    console.log("il risultato è : " + sum);
 } else {
-    console.log("il risultato è pari : " + sum)
+    console.log("il risultato è : " + sum)
 };
 
 if (userChoice === "dispari" && isOdd(sum)){
