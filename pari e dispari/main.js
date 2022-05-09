@@ -25,7 +25,7 @@ do {
 let numUser;
 do {
     numUser = Number(prompt("inserisci un numero tra 1 a 5"));
-} while ( isNaN(numUser) && numUser > 5);
+} while ( isNaN(numUser) || numUser > 5 || numUser < 1);
 
 const numCpu = getRandomNumber(1,5);
 console.log(numCpu);
