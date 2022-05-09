@@ -31,11 +31,7 @@ const numCpu = getRandomNumber(1,5);
 console.log(numCpu);
 const sum = numCpu + numUser;
 
-if (isOdd(sum)) {
-    console.log("il risultato è : " + sum);
-} else {
-    console.log("il risultato è : " + sum)
-};
+console.log("il risultato è : " + sum)
 
 if (userChoice === "dispari" && isOdd(sum)){
     console.log("hai vinto")
